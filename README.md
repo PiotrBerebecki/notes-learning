@@ -1,4 +1,4 @@
-# notes-learning
+# Notes learning
 
 ## Events propagion by bubbling or capture: http://codepen.io/PiotrBerebecki/pen/rjRVeQ
 
