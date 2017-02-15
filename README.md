@@ -1,6 +1,6 @@
-# Notes learning
+# Notes, learning, snippets
 
-## Events propagion by bubbling or capture: http://codepen.io/PiotrBerebecki/pen/rjRVeQ
+## Events propagation by bubbling (default) or capture: http://codepen.io/PiotrBerebecki/pen/rjRVeQ
 
 ```html
 <div>
@@ -27,8 +27,7 @@ pDOM.addEventListener('click', log);
 function log(e) {
   // console.log('target', e.target); // innermost first
   console.log('this', this); // always the object where event listenere was added
-  // e.stopPropagation();
-  // stops propagation after first event
+  // e.stopPropagation(); // stops propagation after first event
 }
 
 // 'this' is always the element that event listener was set on
